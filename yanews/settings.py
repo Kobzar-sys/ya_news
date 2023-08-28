@@ -50,7 +50,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'yanews.wsgi.application'
 
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -58,9 +57,7 @@ DATABASES = {
     }
 }
 
-
 AUTH_PASSWORD_VALIDATORS = []
-
 
 LANGUAGE_CODE = 'ru'
 
